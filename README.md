@@ -2,7 +2,7 @@
 
 Frontend and platform engineer building complex enterprise systems and AI agent products.
 
-I work primarily with TypeScript, Vue, and React, with a focus on state-heavy interfaces, platform control planes, and reliable tool-driven workflows. I currently lead frontend delivery in a three-person team for an enterprise platform serving 100,000+ users.
+I work primarily with TypeScript, Vue, and React, with a focus on state-heavy interfaces, platform control planes, and reliable tool-driven workflows.
 
 ## Open-source work
 
