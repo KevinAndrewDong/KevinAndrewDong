@@ -8,7 +8,3 @@
 - **LanceDB** — [Added precision-preserving Python Decimal updates](https://github.com/lancedb/lancedb/pull/4431), supporting up to **76 digits**. **33 regression cases** failed before the fix and passed afterward against the locally built native extension.
 - **OpenMed** — Contributed [versioned, metadata-only artifact references](https://github.com/maziyarpanahi/openmed/pull/3032) for agent outputs, including validation, public API exports, documentation, and tests.
 
-## Under review
-
-- **OpenHands SDK** — [Standalone prompt enhancement API and typed TypeScript client](https://github.com/OpenHands/software-agent-sdk/pull/5446); [bounded event-history fetching and cancellation](https://github.com/OpenHands/software-agent-sdk/pull/5507). Verified against an authenticated Agent Server with model calls stubbed.
-- **Refly** — [SSRF protection for scraping and URL downloads](https://github.com/refly-ai/refly/pull/2298), validating DNS at the socket and rechecking redirect destinations.
