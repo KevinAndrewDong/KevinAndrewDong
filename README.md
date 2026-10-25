@@ -1,19 +1,14 @@
-# Hi, I'm Kevin Dong
+# Kevin Dong
 
-**Frontend & Platform Engineer · AI Agent systems · Chengdu, China**
+**Frontend & Platform Engineer · Chengdu, China**
 
-I have nearly four years of experience building enterprise platform interfaces, including frontend architecture, multi-tenant permissions, shared components, performance optimization, and cloud/private deployment workflows.
+## Merged contributions
 
-My production frontend work is primarily in Vue and Angular. I also contribute Python, TypeScript, and React code to open-source AI projects.
+- **ByteDance DeerFlow · [5 merged PRs](https://github.com/bytedance/deer-flow/pulls?q=is%3Apr+is%3Amerged+author%3AKevinAndrewDong)** — [Fixed missing tool-result history after a later run failure](https://github.com/bytedance/deer-flow/pull/5671), preserving run ownership, de-duplication, and subagent isolation.
+- **LanceDB** — [Added precision-preserving Python Decimal updates](https://github.com/lancedb/lancedb/pull/4431), supporting up to **76 digits**. **33 regression cases** failed before the fix and passed afterward against the locally built native extension.
+- **OpenMed** — Contributed [versioned, metadata-only artifact references](https://github.com/maziyarpanahi/openmed/pull/3032) for agent outputs, including validation, public API exports, documentation, and tests.
 
-## Selected merged contributions
+## Under review
 
-- **[ByteDance DeerFlow](https://github.com/bytedance/deer-flow/pull/5671)** — Fixed tool results disappearing from persisted run history after a later failure, preserving run ownership, de-duplication, and subagent isolation.
-- **[LanceDB](https://github.com/lancedb/lancedb/pull/4431)** — Added Decimal table-update support while preserving decimal128/256 precision, backed by regression tests and native-extension validation.
-- **[OpenMed](https://github.com/maziyarpanahi/openmed/pull/3032)** — Contributed versioned artifact-reference contracts, validation, API exports, documentation, and tests; the merged implementation includes maintainer follow-up.
-
-I focus on reliable agent execution, explicit data contracts, and responsive platform interfaces.
-
-**Production frontend:** TypeScript · Vue 3 · Angular · Vite · Pinia
-
-**Open source:** Python · pytest · TypeScript SDKs · React
+- **OpenHands SDK** — [Standalone prompt enhancement API and typed TypeScript client](https://github.com/OpenHands/software-agent-sdk/pull/5446); [bounded event-history fetching and cancellation](https://github.com/OpenHands/software-agent-sdk/pull/5507). Verified against an authenticated Agent Server with model calls stubbed.
+- **Refly** — [SSRF protection for scraping and URL downloads](https://github.com/refly-ai/refly/pull/2298), validating DNS at the socket and rechecking redirect destinations.
